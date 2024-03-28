@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		8BFEC3242BB602A80007ED57 /* VoiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3232BB602A80007ED57 /* VoiceMemoApp.swift */; };
 		8BFEC3262BB602A80007ED57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3252BB602A80007ED57 /* ContentView.swift */; };
-		8BFEC3282BB602AA0007ED57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC3272BB602AA0007ED57 /* Assets.xcassets */; };
 		8BFEC32B2BB602AA0007ED57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC32A2BB602AA0007ED57 /* Preview Assets.xcassets */; };
 		8BFEC3382BB603BE0007ED57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3372BB603BE0007ED57 /* AppDelegate.swift */; };
 		8BFEC33A2BB603FD0007ED57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC3392BB603FD0007ED57 /* LaunchScreen.storyboard */; };
-		8BFEC3472BB605E40007ED57 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3462BB605E40007ED57 /* Color+Extensions.swift */; };
+		8BFEC34A2BB60C6D0007ED57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC3492BB60C6D0007ED57 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BFEC3202BB602A80007ED57 /* VoiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFEC3232BB602A80007ED57 /* VoiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoApp.swift; sourceTree = "<group>"; };
 		8BFEC3252BB602A80007ED57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8BFEC3272BB602AA0007ED57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BFEC32A2BB602AA0007ED57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BFEC3312BB603010007ED57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8BFEC3372BB603BE0007ED57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFEC3392BB603FD0007ED57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BFEC3462BB605E40007ED57 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		8BFEC3492BB60C6D0007ED57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,7 @@
 				8BFEC3362BB603A70007ED57 /* Model */,
 				8BFEC3252BB602A80007ED57 /* ContentView.swift */,
 				8BFEC3312BB603010007ED57 /* Info.plist */,
-				8BFEC3272BB602AA0007ED57 /* Assets.xcassets */,
+				8BFEC3492BB60C6D0007ED57 /* Assets.xcassets */,
 				8BFEC3292BB602AA0007ED57 /* Preview Content */,
 			);
 			path = VoiceMemo;
@@ -133,7 +131,6 @@
 		8BFEC33C2BB6043A0007ED57 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8BFEC3462BB605E40007ED57 /* Color+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -265,8 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFEC33A2BB603FD0007ED57 /* LaunchScreen.storyboard in Resources */,
+				8BFEC34A2BB60C6D0007ED57 /* Assets.xcassets in Resources */,
 				8BFEC32B2BB602AA0007ED57 /* Preview Assets.xcassets in Resources */,
-				8BFEC3282BB602AA0007ED57 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +277,6 @@
 				8BFEC3382BB603BE0007ED57 /* AppDelegate.swift in Sources */,
 				8BFEC3262BB602A80007ED57 /* ContentView.swift in Sources */,
 				8BFEC3242BB602A80007ED57 /* VoiceMemoApp.swift in Sources */,
-				8BFEC3472BB605E40007ED57 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
