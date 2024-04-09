@@ -11,7 +11,6 @@
 		8B35B1B72BBE3A37004F9A14 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1B62BBE3A37004F9A14 /* Path.swift */; };
 		8B35B1B92BBE3BD8004F9A14 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1B82BBE3BD8004F9A14 /* HomeView.swift */; };
 		8B35B1BB2BBE3BDD004F9A14 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1BA2BBE3BDD004F9A14 /* TodoView.swift */; };
-		8B35B1BD2BBE3BE3004F9A14 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1BC2BBE3BE3004F9A14 /* MemoView.swift */; };
 		8B35B1BF2BBE4AFD004F9A14 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1BE2BBE4AFD004F9A14 /* Date+.swift */; };
 		8B35B1C12BBE5B24004F9A14 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1C02BBE5B24004F9A14 /* CustomNavigationBar.swift */; };
 		8B35B1C32BBE5B46004F9A14 /* NavigationButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1C22BBE5B46004F9A14 /* NavigationButtonType.swift */; };
@@ -19,12 +18,15 @@
 		8B35B1C72BBE60CA004F9A14 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1C62BBE60CA004F9A14 /* TodoViewModel.swift */; };
 		8B35B1C92BBE61D3004F9A14 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1C82BBE61D3004F9A14 /* TodoListView.swift */; };
 		8B35B1CB2BBE61DD004F9A14 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35B1CA2BBE61DD004F9A14 /* TodoListViewModel.swift */; };
-		8B4DA5BB2BBE27930048B420 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA5BA2BBE27930048B420 /* Color+.swift */; };
 		8B4DA5C32BBE28CC0048B420 /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA5C22BBE28CC0048B420 /* OnboardingContent.swift */; };
 		8B4DA5C52BBE29230048B420 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA5C42BBE29230048B420 /* OnboardingViewModel.swift */; };
 		8B4DA5C72BBE2A9A0048B420 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA5C62BBE2A9A0048B420 /* OnboardingView.swift */; };
+		8B52EA0C2BC4D5E300BEEB1B /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52EA0B2BC4D5E300BEEB1B /* Memo.swift */; };
+		8B52EA0F2BC4D6F000BEEB1B /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52EA0E2BC4D6F000BEEB1B /* MemoViewModel.swift */; };
+		8B52EA112BC4D6F800BEEB1B /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52EA102BC4D6F800BEEB1B /* MemoView.swift */; };
+		8B52EA132BC4D70500BEEB1B /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52EA122BC4D70500BEEB1B /* MemoListView.swift */; };
+		8B52EA152BC4D71400BEEB1B /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52EA142BC4D71400BEEB1B /* MemoListViewModel.swift */; };
 		8BFEC3242BB602A80007ED57 /* VoiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3232BB602A80007ED57 /* VoiceMemoApp.swift */; };
-		8BFEC3262BB602A80007ED57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3252BB602A80007ED57 /* ContentView.swift */; };
 		8BFEC32B2BB602AA0007ED57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC32A2BB602AA0007ED57 /* Preview Assets.xcassets */; };
 		8BFEC3382BB603BE0007ED57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEC3372BB603BE0007ED57 /* AppDelegate.swift */; };
 		8BFEC33A2BB603FD0007ED57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEC3392BB603FD0007ED57 /* LaunchScreen.storyboard */; };
@@ -36,7 +38,6 @@
 		8B35B1B62BBE3A37004F9A14 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		8B35B1B82BBE3BD8004F9A14 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8B35B1BA2BBE3BDD004F9A14 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
-		8B35B1BC2BBE3BE3004F9A14 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 		8B35B1BE2BBE4AFD004F9A14 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		8B35B1C02BBE5B24004F9A14 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		8B35B1C22BBE5B46004F9A14 /* NavigationButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonType.swift; sourceTree = "<group>"; };
@@ -44,13 +45,16 @@
 		8B35B1C62BBE60CA004F9A14 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		8B35B1C82BBE61D3004F9A14 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		8B35B1CA2BBE61DD004F9A14 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
-		8B4DA5BA2BBE27930048B420 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		8B4DA5C22BBE28CC0048B420 /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
 		8B4DA5C42BBE29230048B420 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		8B4DA5C62BBE2A9A0048B420 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8B52EA0B2BC4D5E300BEEB1B /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		8B52EA0E2BC4D6F000BEEB1B /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
+		8B52EA102BC4D6F800BEEB1B /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		8B52EA122BC4D70500BEEB1B /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		8B52EA142BC4D71400BEEB1B /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
 		8BFEC3202BB602A80007ED57 /* VoiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFEC3232BB602A80007ED57 /* VoiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoApp.swift; sourceTree = "<group>"; };
-		8BFEC3252BB602A80007ED57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BFEC32A2BB602AA0007ED57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BFEC3312BB603010007ED57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8BFEC3372BB603BE0007ED57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		8B4DA5BD2BBE28940048B420 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
+				8B52EA0B2BC4D5E300BEEB1B /* Memo.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -124,6 +129,15 @@
 			path = Path;
 			sourceTree = "<group>";
 		};
+		8B52EA0D2BC4D6DB00BEEB1B /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				8B52EA102BC4D6F800BEEB1B /* MemoView.swift */,
+				8B52EA0E2BC4D6F000BEEB1B /* MemoViewModel.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
 		8BFEC3172BB602A80007ED57 = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +162,6 @@
 				8BFEC3342BB6039C0007ED57 /* Component */,
 				8BFEC3352BB603A10007ED57 /* Feature */,
 				8BFEC3362BB603A70007ED57 /* Model */,
-				8BFEC3252BB602A80007ED57 /* ContentView.swift */,
 				8BFEC3312BB603010007ED57 /* Info.plist */,
 				8BFEC3492BB60C6D0007ED57 /* Assets.xcassets */,
 				8BFEC3292BB602AA0007ED57 /* Preview Content */,
@@ -224,7 +237,6 @@
 		8BFEC33C2BB6043A0007ED57 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8B4DA5BA2BBE27930048B420 /* Color+.swift */,
 				8B35B1BE2BBE4AFD004F9A14 /* Date+.swift */,
 			);
 			path = Extension;
@@ -292,7 +304,9 @@
 		8BFEC3442BB604E90007ED57 /* MemoList */ = {
 			isa = PBXGroup;
 			children = (
-				8B35B1BC2BBE3BE3004F9A14 /* MemoView.swift */,
+				8B52EA0D2BC4D6DB00BEEB1B /* Memo */,
+				8B52EA122BC4D70500BEEB1B /* MemoListView.swift */,
+				8B52EA142BC4D71400BEEB1B /* MemoListViewModel.swift */,
 			);
 			path = MemoList;
 			sourceTree = "<group>";
@@ -384,18 +398,20 @@
 				8B4DA5C52BBE29230048B420 /* OnboardingViewModel.swift in Sources */,
 				8B4DA5C32BBE28CC0048B420 /* OnboardingContent.swift in Sources */,
 				8B35B1B92BBE3BD8004F9A14 /* HomeView.swift in Sources */,
-				8B4DA5BB2BBE27930048B420 /* Color+.swift in Sources */,
 				8B35B1C12BBE5B24004F9A14 /* CustomNavigationBar.swift in Sources */,
-				8BFEC3262BB602A80007ED57 /* ContentView.swift in Sources */,
 				8B35B1CB2BBE61DD004F9A14 /* TodoListViewModel.swift in Sources */,
 				8B35B1C72BBE60CA004F9A14 /* TodoViewModel.swift in Sources */,
+				8B52EA112BC4D6F800BEEB1B /* MemoView.swift in Sources */,
+				8B52EA132BC4D70500BEEB1B /* MemoListView.swift in Sources */,
 				8B35B1B52BBE39FC004F9A14 /* PathType.swift in Sources */,
+				8B52EA0C2BC4D5E300BEEB1B /* Memo.swift in Sources */,
 				8BFEC3242BB602A80007ED57 /* VoiceMemoApp.swift in Sources */,
 				8B35B1C52BBE6021004F9A14 /* Todo.swift in Sources */,
 				8B35B1B72BBE3A37004F9A14 /* Path.swift in Sources */,
 				8B35B1C92BBE61D3004F9A14 /* TodoListView.swift in Sources */,
+				8B52EA0F2BC4D6F000BEEB1B /* MemoViewModel.swift in Sources */,
 				8B35B1BB2BBE3BDD004F9A14 /* TodoView.swift in Sources */,
-				8B35B1BD2BBE3BE3004F9A14 /* MemoView.swift in Sources */,
+				8B52EA152BC4D71400BEEB1B /* MemoListViewModel.swift in Sources */,
 				8B4DA5C72BBE2A9A0048B420 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
