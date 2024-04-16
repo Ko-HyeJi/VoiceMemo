@@ -1,1 +1,1 @@
-# clova-note-clone-app
+# VoiceMemo
